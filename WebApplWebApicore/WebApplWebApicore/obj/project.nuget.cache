@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "oGFJznAZP4udO5LPWSUs8vD2ghSSGaSUw+bzO7wK0XYGLTKBmMyNtn27WQ4OH7a9tROdRicmEKZpawaUm+/27Q==",
+  "success": true,
+  "projectFilePath": "C:\\test\\WebApplWebApicore\\WebApplWebApicore\\WebApplWebApicore.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\chanmm\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512"
+  ],
+  "logs": []
+}
