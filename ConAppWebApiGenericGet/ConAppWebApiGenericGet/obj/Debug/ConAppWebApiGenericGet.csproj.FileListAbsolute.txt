@@ -1,0 +1,7 @@
+C:\test\webapi\ConAppWebApiGenericGet\ConAppWebApiGenericGet\bin\Debug\ConAppWebApiGenericGet.exe.config
+C:\test\webapi\ConAppWebApiGenericGet\ConAppWebApiGenericGet\bin\Debug\ConAppWebApiGenericGet.exe
+C:\test\webapi\ConAppWebApiGenericGet\ConAppWebApiGenericGet\bin\Debug\ConAppWebApiGenericGet.pdb
+C:\test\webapi\ConAppWebApiGenericGet\ConAppWebApiGenericGet\obj\Debug\ConAppWebApiGenericGet.csprojAssemblyReference.cache
+C:\test\webapi\ConAppWebApiGenericGet\ConAppWebApiGenericGet\obj\Debug\ConAppWebApiGenericGet.csproj.CoreCompileInputs.cache
+C:\test\webapi\ConAppWebApiGenericGet\ConAppWebApiGenericGet\obj\Debug\ConAppWebApiGenericGet.exe
+C:\test\webapi\ConAppWebApiGenericGet\ConAppWebApiGenericGet\obj\Debug\ConAppWebApiGenericGet.pdb
