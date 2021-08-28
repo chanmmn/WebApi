@@ -1,0 +1,6 @@
+D:\test\other\ConAppGetCsvUrl\ConAppGetCsvUrl\obj\Debug\ConAppGetCsvUrl.csproj.CoreCompileInputs.cache
+D:\test\other\ConAppGetCsvUrl\ConAppGetCsvUrl\bin\Debug\ConAppGetCsvUrl.exe.config
+D:\test\other\ConAppGetCsvUrl\ConAppGetCsvUrl\bin\Debug\ConAppGetCsvUrl.exe
+D:\test\other\ConAppGetCsvUrl\ConAppGetCsvUrl\bin\Debug\ConAppGetCsvUrl.pdb
+D:\test\other\ConAppGetCsvUrl\ConAppGetCsvUrl\obj\Debug\ConAppGetCsvUrl.exe
+D:\test\other\ConAppGetCsvUrl\ConAppGetCsvUrl\obj\Debug\ConAppGetCsvUrl.pdb

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31402.337
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConAppGetCsvUrl", "ConAppGetCsvUrl\ConAppGetCsvUrl.csproj", "{907CC437-3146-41E7-BC2D-1122469DB470}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{907CC437-3146-41E7-BC2D-1122469DB470}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{907CC437-3146-41E7-BC2D-1122469DB470}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{907CC437-3146-41E7-BC2D-1122469DB470}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{907CC437-3146-41E7-BC2D-1122469DB470}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C74083F1-FCDC-4BEE-B53E-19E213590665}
+	EndGlobalSection
+EndGlobal
