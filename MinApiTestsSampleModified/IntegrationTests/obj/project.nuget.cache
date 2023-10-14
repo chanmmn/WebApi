@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "CD+R2DGE23B1vPf7SzEUEUzJ5Cnw89fgCNa/OYkBzVw8ajbK/GbMTPbsjqR1RMwt0UuiVw+KpZJ+FmdtgqWNGA==",
+  "dgSpecHash": "TXqPKSSqpPKfYWWX+1YS1oVcKSS07WvcCAapONTfErTzkog+8DopiX7DOB8n91NAPahmUkpLYTMgc1KWX83/Tg==",
   "success": true,
-  "projectFilePath": "C:\\test\\other\\MinApiTestsSampleModified\\IntegrationTests\\IntegrationTests.csproj",
+  "projectFilePath": "C:\\GitHub\\WebApi\\MinApiTestsSampleModified\\IntegrationTests\\IntegrationTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Administrator\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

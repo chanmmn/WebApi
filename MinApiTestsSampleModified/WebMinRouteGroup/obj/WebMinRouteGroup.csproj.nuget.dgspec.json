@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\test\\other\\MinApiTestsSampleModified\\WebMinRouteGroup\\WebMinRouteGroup.csproj": {}
+    "C:\\GitHub\\WebApi\\MinApiTestsSampleModified\\WebMinRouteGroup\\WebMinRouteGroup.csproj": {}
   },
   "projects": {
-    "C:\\test\\other\\MinApiTestsSampleModified\\WebMinRouteGroup\\WebMinRouteGroup.csproj": {
+    "C:\\GitHub\\WebApi\\MinApiTestsSampleModified\\WebMinRouteGroup\\WebMinRouteGroup.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\test\\other\\MinApiTestsSampleModified\\WebMinRouteGroup\\WebMinRouteGroup.csproj",
+        "projectUniqueName": "C:\\GitHub\\WebApi\\MinApiTestsSampleModified\\WebMinRouteGroup\\WebMinRouteGroup.csproj",
         "projectName": "WebMinRouteGroup",
-        "projectPath": "C:\\test\\other\\MinApiTestsSampleModified\\WebMinRouteGroup\\WebMinRouteGroup.csproj",
+        "projectPath": "C:\\GitHub\\WebApi\\MinApiTestsSampleModified\\WebMinRouteGroup\\WebMinRouteGroup.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "C:\\test\\other\\MinApiTestsSampleModified\\WebMinRouteGroup\\obj\\",
+        "outputPath": "C:\\GitHub\\WebApi\\MinApiTestsSampleModified\\WebMinRouteGroup\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

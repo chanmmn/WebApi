@@ -42,7 +42,7 @@ public static class TodoEndpointsV1
     //    //Todo[] todos = new Todo[] { };
     //    List<Todo> todoList = new List<Todo>();
     //    //// Define the connection string
-    //    //string connectionString = "Data Source=localhost;Database=Todo;User id=sa;Password=Pa$$w0rd;TrustServerCertificate=true";
+    //    //string connectionString = "Data Source=localhost;Database=Todo;User id=sa;Password=password;TrustServerCertificate=true";
     //    //// Define the query with parameters
     //    //string query = "SELECT  * FROM Todo FOR Json Path";
     //    //string str = "";
@@ -94,7 +94,7 @@ public static class TodoEndpointsV1
         todo.Description = "Walk dog";
         todo.IsDone = true;
         todoList.Add(todo);
-        var todos = todoList.ToArray();
+        Todo[] todos = todoList.ToArray();
         return TypedResults.Ok(todos);
     }
     // </snippet_1>

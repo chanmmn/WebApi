@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dNJegJ8YDHp3Y/iii2/9wuI2xszUhD4FzSZPDylRY31GBZRbvuAKk7FJ+Atr7SB+9k0iliK9jbV3EoRQQ4Rtow==",
+  "dgSpecHash": "1HeZfNsnGetfkKZ9iNbc2m/ReiuFjpwny2VmJsM6ica26bKtTREVZ0vSeudhs2+TgGHNQ6VktOEnLqOnHsA5ug==",
   "success": true,
-  "projectFilePath": "C:\\test\\other\\MinApiTestsSampleModified\\WebMinRouteGroup\\WebMinRouteGroup.csproj",
+  "projectFilePath": "C:\\GitHub\\WebApi\\MinApiTestsSampleModified\\WebMinRouteGroup\\WebMinRouteGroup.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Administrator\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

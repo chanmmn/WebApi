@@ -9307,11 +9307,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\test\\other\\MinApiTestsSampleModified\\UnitTests\\UnitTests.csproj",
+      "projectUniqueName": "C:\\GitHub\\WebApi\\MinApiTestsSampleModified\\UnitTests\\UnitTests.csproj",
       "projectName": "UnitTests",
-      "projectPath": "C:\\test\\other\\MinApiTestsSampleModified\\UnitTests\\UnitTests.csproj",
+      "projectPath": "C:\\GitHub\\WebApi\\MinApiTestsSampleModified\\UnitTests\\UnitTests.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "C:\\test\\other\\MinApiTestsSampleModified\\UnitTests\\obj\\",
+      "outputPath": "C:\\GitHub\\WebApi\\MinApiTestsSampleModified\\UnitTests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -9333,8 +9333,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\test\\other\\MinApiTestsSampleModified\\WebMinRouteGroup\\WebMinRouteGroup.csproj": {
-              "projectPath": "C:\\test\\other\\MinApiTestsSampleModified\\WebMinRouteGroup\\WebMinRouteGroup.csproj"
+            "C:\\GitHub\\WebApi\\MinApiTestsSampleModified\\WebMinRouteGroup\\WebMinRouteGroup.csproj": {
+              "projectPath": "C:\\GitHub\\WebApi\\MinApiTestsSampleModified\\WebMinRouteGroup\\WebMinRouteGroup.csproj"
             }
           }
         }
