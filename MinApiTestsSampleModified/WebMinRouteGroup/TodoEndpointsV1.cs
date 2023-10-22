@@ -59,7 +59,7 @@ public static class TodoEndpointsV1
     //    //    connection.Close();
     //    //}
     //    //var todos = str;
-        
+
     //    //todos[0] = new Todo();
     //    //todos[0].Id = 1;
     //    //todos[0].Title = "Task2";
@@ -80,20 +80,52 @@ public static class TodoEndpointsV1
     //    return TypedResults.Ok(todos);
     //}
 
+    //public static async Task<Ok<Todo[]>> GetAllTodos(TodoGroupDbContext database)
+    //{
+    //    List<Todo> todoList = new List<Todo>();
+    //    Todo todo = new Todo();
+    //    todo.Id = 1;
+    //    todo.Title = "Task2";
+    //    todo.Description = "Description";
+    //    todo.IsDone = true;
+    //    todoList.Add(todo);
+    //    todo.Id = 2;
+    //    todo.Title = "Walk dog";
+    //    todo.Description = "Walk dog";
+    //    todo.IsDone = true;
+    //    todoList.Add(todo);
+    //    Todo[] todos = todoList.ToArray();
+    //    return TypedResults.Ok(todos);
+    //}
     public static async Task<Ok<Todo[]>> GetAllTodos(TodoGroupDbContext database)
     {
         List<Todo> todoList = new List<Todo>();
         Todo todo = new Todo();
-        todo.Id = 1;
-        todo.Title = "Task2";
-        todo.Description = "Description";
-        todo.IsDone = true;
-        todoList.Add(todo);
-        todo.Id = 2;
-        todo.Title = "Walk dog";
-        todo.Description = "Walk dog";
-        todo.IsDone = true;
-        todoList.Add(todo);
+        int isdone = 0;
+         // Define the connection string
+        string connectionString = "Data Source=localhost;Database=Todo;User id=sa;Password=password;TrustServerCertificate=true";
+        // Define the query with parameters
+        string query = "SELECT  * FROM Todo"; // FOR Json Path";
+        string str = "";
+        using (SqlConnection connection = new SqlConnection(connectionString))
+        using (SqlCommand command = new SqlCommand(query, connection))
+        {
+            connection.Open();
+            SqlDataReader dr = command.ExecuteReader();
+            while (dr.Read())
+            {
+                todo = new Todo();
+                //str = dr.GetString(0).ToString();
+                //Console.WriteLine(str);
+                todo.Id = int.Parse(dr[0].ToString());
+                todo.Title = dr[1].ToString();
+                todo.Description = dr[2].ToString();
+                isdone = int.Parse(dr[3].ToString());
+                todo.IsDone = (isdone==1)?true:false; 
+                todoList.Add(todo);
+            }
+            connection.Close();
+        }
         Todo[] todos = todoList.ToArray();
         return TypedResults.Ok(todos);
     }
