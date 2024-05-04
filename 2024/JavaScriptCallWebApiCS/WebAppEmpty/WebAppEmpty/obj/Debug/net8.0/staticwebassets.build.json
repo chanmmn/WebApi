@@ -1,0 +1,39 @@
+{
+  "Version": 1,
+  "Hash": "QHTpTNP8MAkbh2WaeXk+hdFKG5uKZlzQ+DfTqBWGVuA=",
+  "Source": "WebAppEmpty",
+  "BasePath": "_content/WebAppEmpty",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "WebAppEmpty\\wwwroot",
+      "Source": "WebAppEmpty",
+      "ContentRoot": "C:\\test\\other\\WebAppEmpty\\WebAppEmpty\\wwwroot\\",
+      "BasePath": "_content/WebAppEmpty",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\test\\other\\WebAppEmpty\\WebAppEmpty\\wwwroot\\index.html",
+      "SourceId": "WebAppEmpty",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\test\\other\\WebAppEmpty\\WebAppEmpty\\wwwroot\\",
+      "BasePath": "_content/WebAppEmpty",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    }
+  ]
+}
