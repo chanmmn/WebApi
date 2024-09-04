@@ -1,0 +1,260 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "MapsDemo/1.0.0": {
+        "dependencies": {
+          "Azure.Maps.Geolocation": "1.0.0-beta.2",
+          "Azure.Maps.Rendering": "2.0.0-beta.1",
+          "Azure.Maps.Routing": "1.0.0-beta.3",
+          "Azure.Maps.Search": "2.0.0-beta.2"
+        },
+        "runtime": {
+          "MapsDemo.dll": {}
+        }
+      },
+      "Azure.Core/1.42.0": {
+        "dependencies": {
+          "Microsoft.Bcl.AsyncInterfaces": "6.0.0",
+          "System.ClientModel": "1.0.0",
+          "System.Diagnostics.DiagnosticSource": "6.0.1",
+          "System.Memory.Data": "1.0.2",
+          "System.Numerics.Vectors": "4.5.0",
+          "System.Text.Encodings.Web": "6.0.0",
+          "System.Text.Json": "4.7.2",
+          "System.Threading.Tasks.Extensions": "4.5.4"
+        },
+        "runtime": {
+          "lib/net6.0/Azure.Core.dll": {
+            "assemblyVersion": "1.42.0.0",
+            "fileVersion": "1.4200.24.40104"
+          }
+        }
+      },
+      "Azure.Maps.Common/1.0.0-beta.4": {
+        "dependencies": {
+          "Azure.Core": "1.42.0",
+          "System.Text.Json": "4.7.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Azure.Maps.Common.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.23.36202"
+          }
+        }
+      },
+      "Azure.Maps.Geolocation/1.0.0-beta.2": {
+        "dependencies": {
+          "Azure.Core": "1.42.0",
+          "System.Text.Json": "4.7.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Azure.Maps.Geolocation.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.23.36202"
+          }
+        }
+      },
+      "Azure.Maps.Rendering/2.0.0-beta.1": {
+        "dependencies": {
+          "Azure.Core": "1.42.0",
+          "Azure.Maps.Common": "1.0.0-beta.4",
+          "System.Text.Json": "4.7.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Azure.Maps.Rendering.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.24.41201"
+          }
+        }
+      },
+      "Azure.Maps.Routing/1.0.0-beta.3": {
+        "dependencies": {
+          "Azure.Core": "1.42.0",
+          "System.Text.Json": "4.7.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Azure.Maps.Routing.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.24.41201"
+          }
+        }
+      },
+      "Azure.Maps.Search/2.0.0-beta.2": {
+        "dependencies": {
+          "Azure.Core": "1.42.0",
+          "Azure.Maps.Common": "1.0.0-beta.4",
+          "System.Text.Json": "4.7.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Azure.Maps.Search.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.24.41303"
+          }
+        }
+      },
+      "Microsoft.Bcl.AsyncInterfaces/6.0.0": {
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52210"
+          }
+        }
+      },
+      "System.ClientModel/1.0.0": {
+        "dependencies": {
+          "System.Memory.Data": "1.0.2",
+          "System.Text.Json": "4.7.2"
+        },
+        "runtime": {
+          "lib/net6.0/System.ClientModel.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.24.5302"
+          }
+        }
+      },
+      "System.Diagnostics.DiagnosticSource/6.0.1": {
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
+        }
+      },
+      "System.Memory.Data/1.0.2": {
+        "dependencies": {
+          "System.Text.Encodings.Web": "6.0.0",
+          "System.Text.Json": "4.7.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Memory.Data.dll": {
+            "assemblyVersion": "1.0.2.0",
+            "fileVersion": "1.0.221.20802"
+          }
+        }
+      },
+      "System.Numerics.Vectors/4.5.0": {},
+      "System.Runtime.CompilerServices.Unsafe/6.0.0": {},
+      "System.Text.Encodings.Web/6.0.0": {
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
+        }
+      },
+      "System.Text.Json/4.7.2": {},
+      "System.Threading.Tasks.Extensions/4.5.4": {}
+    }
+  },
+  "libraries": {
+    "MapsDemo/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Azure.Core/1.42.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Fg88OsrjD2nAvz3N0pk2d/AwIHQRrs9CjA9A35OW1YgYhMo0OTz4WkntQK6V2tf84g7SnfJM8ORcZl+bH6P9Cg==",
+      "path": "azure.core/1.42.0",
+      "hashPath": "azure.core.1.42.0.nupkg.sha512"
+    },
+    "Azure.Maps.Common/1.0.0-beta.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-lvPxa4XukZFmU2YJXXH7ZN0S/8GscnOfJbILbkB3H/uApVO+aN+ZFaUhlgygbVYe66PaeTkK6VR6FLTbNYprWg==",
+      "path": "azure.maps.common/1.0.0-beta.4",
+      "hashPath": "azure.maps.common.1.0.0-beta.4.nupkg.sha512"
+    },
+    "Azure.Maps.Geolocation/1.0.0-beta.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-SBzN6yvBbnnGLaFnVpBgBnBoBuM02EJFfZshECuLtfqLprQQ7htYaLMW645Zrzae9ocYvf7V6QX6VaXbHjF7Jg==",
+      "path": "azure.maps.geolocation/1.0.0-beta.2",
+      "hashPath": "azure.maps.geolocation.1.0.0-beta.2.nupkg.sha512"
+    },
+    "Azure.Maps.Rendering/2.0.0-beta.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-mNap1Q9ZHPYejXYMwuTrVYeKsCMXr75KkTRbzT6hmZzP024EKDkcPaLqO1lpEK0gQKLdmiqV3GiN27s/j5ZAfw==",
+      "path": "azure.maps.rendering/2.0.0-beta.1",
+      "hashPath": "azure.maps.rendering.2.0.0-beta.1.nupkg.sha512"
+    },
+    "Azure.Maps.Routing/1.0.0-beta.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Q+GzetHnGY+AQztMV8zfwF3Rjkl+GuRAWmdKEonq/HZeS5btZ0MQ5j0Stmv7w7RAQVq5Y4q7u9OcY62j7cz9BA==",
+      "path": "azure.maps.routing/1.0.0-beta.3",
+      "hashPath": "azure.maps.routing.1.0.0-beta.3.nupkg.sha512"
+    },
+    "Azure.Maps.Search/2.0.0-beta.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vXx1goxFqMsYBEBmBmA+FIgGChEeT0bJD6nbOcANzDrWN4Chhmrii86w11rsseM+cS7BNZFdi3d/lnC1GoxlzA==",
+      "path": "azure.maps.search/2.0.0-beta.2",
+      "hashPath": "azure.maps.search.2.0.0-beta.2.nupkg.sha512"
+    },
+    "Microsoft.Bcl.AsyncInterfaces/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-UcSjPsst+DfAdJGVDsu346FX0ci0ah+lw3WRtn18NUwEqRt70HaOQ7lI72vy3+1LxtqI3T5GWwV39rQSrCzAeg==",
+      "path": "microsoft.bcl.asyncinterfaces/6.0.0",
+      "hashPath": "microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512"
+    },
+    "System.ClientModel/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-I3CVkvxeqFYjIVEP59DnjbeoGNfo/+SZrCLpRz2v/g0gpCHaEMPtWSY0s9k/7jR1rAsLNg2z2u1JRB76tPjnIw==",
+      "path": "system.clientmodel/1.0.0",
+      "hashPath": "system.clientmodel.1.0.0.nupkg.sha512"
+    },
+    "System.Diagnostics.DiagnosticSource/6.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-KiLYDu2k2J82Q9BJpWiuQqCkFjRBWVq4jDzKKWawVi9KWzyD0XG3cmfX0vqTQlL14Wi9EufJrbL0+KCLTbqWiQ==",
+      "path": "system.diagnostics.diagnosticsource/6.0.1",
+      "hashPath": "system.diagnostics.diagnosticsource.6.0.1.nupkg.sha512"
+    },
+    "System.Memory.Data/1.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-JGkzeqgBsiZwKJZ1IxPNsDFZDhUvuEdX8L8BDC8N3KOj+6zMcNU28CNN59TpZE/VJYy9cP+5M+sbxtWJx3/xtw==",
+      "path": "system.memory.data/1.0.2",
+      "hashPath": "system.memory.data.1.0.2.nupkg.sha512"
+    },
+    "System.Numerics.Vectors/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-QQTlPTl06J/iiDbJCiepZ4H//BVraReU4O4EoRw1U02H5TLUIT7xn3GnDp9AXPSlJUDyFs4uWjWafNX6WrAojQ==",
+      "path": "system.numerics.vectors/4.5.0",
+      "hashPath": "system.numerics.vectors.4.5.0.nupkg.sha512"
+    },
+    "System.Runtime.CompilerServices.Unsafe/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/iUeP3tq1S0XdNNoMz5C9twLSrM/TH+qElHkXWaPvuNOt+99G75NrV0OS2EqHx5wMN7popYjpc8oTjC1y16DLg==",
+      "path": "system.runtime.compilerservices.unsafe/6.0.0",
+      "hashPath": "system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+    },
+    "System.Text.Encodings.Web/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Vg8eB5Tawm1IFqj4TVK1czJX89rhFxJo9ELqc/Eiq0eXy13RK00eubyU6TJE6y+GQXjyV5gSfiewDUZjQgSE0w==",
+      "path": "system.text.encodings.web/6.0.0",
+      "hashPath": "system.text.encodings.web.6.0.0.nupkg.sha512"
+    },
+    "System.Text.Json/4.7.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-TcMd95wcrubm9nHvJEQs70rC0H/8omiSGGpU4FQ/ZA1URIqD4pjmFJh2Mfv1yH1eHgJDWTi2hMDXwTET+zOOyg==",
+      "path": "system.text.json/4.7.2",
+      "hashPath": "system.text.json.4.7.2.nupkg.sha512"
+    },
+    "System.Threading.Tasks.Extensions/4.5.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zteT+G8xuGu6mS+mzDzYXbzS7rd3K6Fjb9RiZlYlJPam2/hU7JCBZBVEcywNuR+oZ1ncTvc/cq0faRr3P01OVg==",
+      "path": "system.threading.tasks.extensions/4.5.4",
+      "hashPath": "system.threading.tasks.extensions.4.5.4.nupkg.sha512"
+    }
+  }
+}
